@@ -1,0 +1,7 @@
+#Thu Feb 02 14:32:33 IST 2017
+base.0=/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79959d577179c637f42b67146d11ba0d8e552b78
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a92367be309b03eb21cfebaaf3b2061db75cfabf/classes.dex
+base.1=/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a92367be309b03eb21cfebaaf3b2061db75cfabf
+file.0=/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79959d577179c637f42b67146d11ba0d8e552b78/classes.dex

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4649db88981f9eea734c2e71fc910522ce74ce9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfb91ea7c6890336890ccb42767041af6b863e32">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_a14e35df1fb7ac19e7a9d032ff4219b411a4d1c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_9df0c71c8403c22c68bc5e9a9c355471fd0e4c84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d95fd94f9130ff1d491ca5f0af56220dca3a3b">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a92367be309b03eb21cfebaaf3b2061db75cfabf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_4d0d78190d2e89782450ce3527146025024bf1ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_e9bafe62e9c1b256b7e30d79b7f31d3b32cea330/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb32074146114b4c778f2ad27e7d1227bbca3be9">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_79959d577179c637f42b67146d11ba0d8e552b78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_8968c5baa59263a6d4ada7f92b443875e66cb4e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_47d70bda53877177ce9861fdb560c0eb065479c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_1ad508d9676dd29d424cd7f981896e93d1fa51fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.1_e53dd579955e5ee2070abbdc0ed2e5827453e369/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_bc59cb623e0479cb3b3796fda228a71f02d48043/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_e5b41fb45574de45cd8f46315258b96f342ac78b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_365421864d9985886c170eb47ec80c48f5ca8aba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-v13/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9abf11d546d9e0ee82da86df608ced7a961b76ac">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-25.0.1_6f8f0b5a089596ac78431c6b8004614875b3a9b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_ff11b60ef323b4320747812bf643ef8c068c521a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_047ae20497bf1d7799c56acdbd72272012d8ac1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2a44c07fbbe66953315bd77faaa04581d8c95b39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/home/tayyabali-home/Desktop/android-AppUsageStatistics-master/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_73a03a9f734f183b3417ee51a7e4e76ac46b9d43/classes.dex" />
+    </item>
+
+</items>
