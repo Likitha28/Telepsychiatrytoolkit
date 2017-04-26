@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.android.appusagestatistics.phq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:showIn="@layout/activity_phq9">
+
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHQ9 Questions"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:id="@+id/t1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Little interest or pleasure in doing things?"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:id="@+id/t1" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RG1"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_marginTop="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:id="@+id/Q1_op1"
+                    android:text="Not At all"
+                    android:tag="1" />
+
+                <RadioButton
+                    android:layout_height="wrap_content"
+                    android:layout_width="136dp"
+                    android:id="@+id/Q1_op2"
+                    android:text="Several Days"
+                    android:tag="2" />
+
+                <RadioButton
+                    android:layout_width="197dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q1_op3"
+                    android:text="More Than Half the Days"
+                    android:tag="3" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q1_op4"
+                    android:text="Nearly Every Day"
+                    android:tag="4" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:text="2. Feeling down, depressed, or hopeless?"
+                android:layout_marginTop="20dp"
+                android:id="@+id/t2"
+                android:layout_below="@+id/RG1"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_alignStart="@+id/textView6"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG2"
+                android:orientation="vertical"
+                android:layout_marginTop="13dp"
+                android:layout_below="@+id/textView5"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q2_op1"
+                    android:text="Not At all" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q2_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q2_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q2_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Trouble falling or staying asleep, or sleeping too much?"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG3"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q3_op1"
+                    android:text="Not At all" />
+
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q3_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q3_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q3_op4"
+                    android:text="Nearly Every Day"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Poor appetite or overeating?"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG4"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q4_op1"
+                    android:text="Not At all" />
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q4_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q4_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q4_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Poor appetite or overeating?"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG5"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q5_op1"
+                    android:text="Not At all" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q5_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q5_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q5_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:text="6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down? "
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"  />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG6"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q6_op1"
+                    android:text="Not At all" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q6_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q6_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q6_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Trouble concentrating on things, such as reading the newspaper or watching television?"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG7"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q7_op1"
+                    android:text="Not At all" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q7_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q7_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q7_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Moving or speaking so slowly that other people could have noticed?
+Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG8"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q8_op1"
+                    android:text="Not At all" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q8_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q8_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q8_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Thoughts that you would be better off dead, or of hurting yourself in some way?"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="0.12"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/RG2"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:id="@+id/RG9"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q9_op1"
+                    android:text="Not At all" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q9_op2"
+                    android:text="Several Days"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q9_op3"
+                    android:text="More Than Half the Days"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Q9_op4"
+                    android:text="Nearly Every Day"
+                    />
+
+            </RadioGroup>
+
+
+
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+

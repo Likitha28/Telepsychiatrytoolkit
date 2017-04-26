@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.appusagestatistics.Jokes">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="
+Boss: Where were you born?
+Sardar: India ..
+Boss: which part?
+Sardar: What 'which part'? Whole body was born in India .
+" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView57"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="18dp"
+            android:text="
+2 sardar were fixing a bomb in a car.
+Sardar 1: What would you do if the bomb
+explodes while fixing.
+Sardar 2: Dont worry, I have one more.
+" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView58"
+            android:layout_alignRight="@+id/textView58"
+            android:layout_below="@+id/textView58"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="17dp"
+            android:text="
+Sardar: What is the name of your car?
+Lady: I forgot the name, but is starts with 'T'.
+Sardar: Oh, what a strange car, starts with Tea. All cars that I know start with petrol.
+" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView59"
+            android:layout_alignRight="@+id/textView59"
+            android:layout_below="@+id/textView59"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="23dp"
+            android:text="
+Sardar joined new job. 1st day he worked till late evening on the computer. Boss was happy and asked what you did till evening.
+Sardar: Keyboard alphabets were not in order, so I made it alright." />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView60"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="16dp"
+            android:text="
+At the scene of an accident a man was crying: O God! I have lost my hand, oh!
+Sardar: Control yourself. Don't cry. See that man. He has lost his head. Is he crying?
+" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView61"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="26dp"
+            android:text="
+Sardar: U cheated me.
+Shopkeeper: No, I sold a good radio to u.
+Sardar: Radio label shows Made in Japan but radio says this is 'All India Radio! '
+" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="
+In an interview, Interviewer: How does an electric motor run?
+Sardar: Dhhuuuurrrrrrrrrr. .....
+Inteviewer shouts: Stop it.
+Sardar: Dhhuurrrr dhup dhup dhup...
+ "
+            android:layout_below="@+id/textView62"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView63"
+            android:layout_alignRight="@+id/textView63"
+            android:layout_below="@+id/textView63"
+            android:textSize="20dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="19dp"
+            android:text="
+Tourist: Whose skeleton is that?
+Sardar: An old king's skeleton.
+Tourist: Who's that smaller skeleton next to it?
+Sardar: That was same king's skeleton when he was a child.
+ " />
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

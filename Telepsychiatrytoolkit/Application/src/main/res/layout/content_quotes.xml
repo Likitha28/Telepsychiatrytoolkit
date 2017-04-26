@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/stressbusterball"
+    >
+
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Don’t worry about failures, worry about the chances you miss when you don’t even try
+- Jack Canfield "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView57"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="18dp"
+        android:text="
+Some men see things as they are and say why—I dream things that never were and say why not.
+- George Bernard Shaw" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView58"
+        android:layout_alignRight="@+id/textView58"
+        android:layout_below="@+id/textView58"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="17dp"
+        android:text="
+The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future less resolved than it will be.- Marcel Pagnol" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView59"
+        android:layout_alignRight="@+id/textView59"
+        android:layout_below="@+id/textView59"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="23dp"
+        android:text="
+Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.
+- Kahlil Gibran " />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView60"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="16dp"
+        android:text="
+Many of life’s failures are experienced by people who did not realize how close they were to success when they gave up.
+- Thomas Edison" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView61"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="26dp"
+        android:text="
+The two most important days in your life are the day you are born and the day you find out why.
+- Mark Twain" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="
+There is only one way to avoid criticism: do nothing, say nothing, and be nothing.
+- Aristotle "
+        android:layout_alignTop="@+id/textView62"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView63"
+        android:layout_alignRight="@+id/textView63"
+        android:layout_below="@+id/textView63"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="19dp"
+        android:text="
+Don’t worry about failures, worry about the chances you miss when you don’t even try
+- Jack Canfield " />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView64"
+        android:layout_marginTop="30dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Life is not measured by the number of breaths we take, but by the moments that take our breath away.
+- Maya Angelou" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView65"
+        android:layout_marginTop="28dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Too many people spend money they haven’t earned, to buy things they don’t want, to impress people they don’t like.
+- Will Rogers " />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView66"
+        android:layout_alignRight="@+id/textView66"
+        android:layout_below="@+id/textView66"
+        android:layout_marginTop="18dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Life is 10% what happens to us and 90% how we react to it.
+- Charles Swindoll " />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView67"
+        android:layout_marginTop="24dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+When I hear somebody sigh, ‘Life is hard,’ I am always tempted to ask, ‘Compared to what?’
+- Sydney Harris" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView68"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Your time is limited, so don’t waste it living someone else’s life.
+- Steve Jobs" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView69"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Do not pray for an easy life, pray for the strength to endure a difficult one.
+- Bruce Lee" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView70"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="
+Never be bullied into silence. Never allow yourself to be made a victim. Accept no one’s definition of your life; define yourself.
+- Harvey Fierstein" />
+
+</RelativeLayout>
+</ScrollView>

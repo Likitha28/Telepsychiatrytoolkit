@@ -41,6 +41,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/PackageNameFont"
+                    
                     />
 
             <LinearLayout android:layout_width="wrap_content"
@@ -48,7 +49,7 @@
                           android:orientation="horizontal"
                     >
 
-                <TextView
+                <!-- <TextView
                         android:id="@+id/textview_last_time_used_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -60,6 +61,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         />
+                        -->
+                <TextView
+                    android:id="@+id/textview_total_time_used"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_time_used"
+                    />
+
+                <TextView
+                    android:id="@+id/textview_total_time_used"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
