@@ -1,8 +1,4 @@
 
-Android Telepsychiatry toolkit
-===================================
-
-A basic app showing that will help to determine if a user is stressed and/or depressed based on his phone usage pattern
 
 Introduction
 ------------
@@ -13,6 +9,7 @@ for capturing the identified factors with algorithm/s to identify patterns and t
 appropriate actions. The app can be used as a self monitoring tool to monitor
 ones usage pattern. Also, it serves as a tool for the psychiatrists to monitor their
 patients between visits.
+
 The [App usage statistics][1] API used allows app developers to collect statistics related to usage of
 the applications. This API provides more detailed usage information than the deprecated
 [getRecentTasks()][2] method.
