@@ -66,7 +66,7 @@ This sample uses the Gradle build system. To build this project, use the
 Screenshots
 -------------
 
-<img src="screenshots/screenshot-1.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot-2.png" height="400" alt="Screenshot"/> <img src="screenshots/ss1.png" alt="Screenshot"/><img src="screenshots/ss2.png" alt="Screenshot"/><img src="screenshots/ss3.png"  alt="Screenshot"/><img src="screenshots/ss4.png" alt="Screenshot"/>
+<img src="screenshots/screenshot-1.png" height="400" alt="Screenshot"/> <img src="screenshots/screenshot-2.png" height="400" alt="Screenshot"/> <img src="screenshots/ss1.png" height="400" alt="Screenshot"/><img src="screenshots/ss2.png" height="400" alt="Screenshot"/><img src="screenshots/ss3.png"  height="400" alt="Screenshot"/><img src="screenshots/ss4.png" height="400" alt="Screenshot"/>
 
 
 
