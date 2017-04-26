@@ -90,7 +90,7 @@ public class AppUsageStatisticsFragment extends Fragment {
     public void onViewCreated(View rootView, Bundle savedInstanceState) {
         super.onViewCreated(rootView, savedInstanceState);
 
-        mUsageListAdapter = new UsageListAdapter();
+        mUsageListAdapter = new UsageListAdapter(this.getContext());
         mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerview_app_usage);
         mLayoutManager = mRecyclerView.getLayoutManager();
         mRecyclerView.scrollToPosition(0);

@@ -17,12 +17,14 @@
 package com.example.android.appusagestatistics;
 
 import android.app.usage.UsageStats;
+import android.content.Context;
 import android.graphics.drawable.Drawable;
 
 /**
  * Entity class represents usage stats and app icon.
  */
 public class CustomUsageStats {
+    Context context;
     public UsageStats usageStats;
     public Drawable appIcon;
 }
